@@ -161,6 +161,7 @@
           <p>
             <span>Created by pa001024 &nbsp; 2018 ~ 2019</span>&nbsp;
             <s>上海アリス幻樂団</s>
+            &nbsp;|&nbsp;<span>This clone site hosted by CKylinMC(ShadowKylin Clan) on Vercel</span>
           </p>
         </div>
       </div>
