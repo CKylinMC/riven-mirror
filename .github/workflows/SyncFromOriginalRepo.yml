@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Sync From Original Repo
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the dev branch
+  schedule:
+    - cron: '0 0 * * *' 
+  workflow_dispatch: # on button click
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tgymnich/fork-sync@v1.4
+        with:
+          owner: pa001024
+          base: dev
+          head: dev
